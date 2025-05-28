@@ -1,0 +1,39 @@
+@media (min-width: 0px) and (max-width: 768px) {
+  h1 a {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 12px;
+  }
+
+  .header-nav {
+    display: none;
+  }
+
+  .language-btn {
+    display: none;
+  }
+
+  p {
+    font-size: 11px;
+  }
+
+  footer a {
+    font-size: 16px;
+  }
+
+  footer p {
+    font-size: 8px;
+  }
+
+  .l-picto-footer {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .burger-container {
+    display: none;
+  }
+}

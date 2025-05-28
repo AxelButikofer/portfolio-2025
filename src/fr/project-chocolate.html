@@ -1,0 +1,56 @@
+<extends
+  src="fr/base-layout.html"
+  locals='{"translatedUrl": "../en/project-chocolate.html"}'
+>
+  <block name="content">
+    <include src="fr/include/include-work.html">
+      { "workname": "Chocolate Festival", "workyear": "2024", "workdescription":
+      "Ce projet fictif, réalisé durant ma troisième année de formation,
+      consiste à créer l’identité visuelle d’un festival de musique
+      électronique, incluant une maquette de site, un logo et divers supports au
+      choix. ", "projectname": "Chocolate Festival" }
+    </include>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <img
+            class="l-card-img l-card"
+            src="../img/chocolate/mockup_chocolate_macbook.jpg?as=webp"
+            alt="Une image du site Chocolate dans un mackbook."
+            onmousedown="return false"
+            onmousemove="return false"
+            loading="eager"
+          />
+        </div>
+        <div class="col-12">
+          <img
+            class="l-card-img l-card"
+            src="../img/chocolate/mockup_billboard_animation.jpg"
+            alt="Mockup de l'affiche animé du festival."
+            onmousedown="return false"
+            onmousemove="return false"
+          />
+        </div>
+        <div class="col-12">
+          <img
+            class="l-card-img l-card"
+            src="../img/chocolate/logo_chocolate.jpg?as=webp"
+            alt="Logo du festival."
+            onmousedown="return false"
+            onmousemove="return false"
+          />
+        </div>
+        <div class="col-12">
+          <img
+            class="l-card-img l-card"
+            src="../img/chocolate/maquette_chocolate.jpg?as=webp"
+            alt="Une maquette du site du festival."
+            onmousedown="return false"
+            onmousemove="return false"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </block>
+</extends>

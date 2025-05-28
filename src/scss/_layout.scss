@@ -1,0 +1,77 @@
+.l-logo-container {
+  display: flex;
+}
+
+.l-footer-icons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  align-items: center;
+}
+
+.l-footer-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.l-card {
+  margin-bottom: 50px;
+}
+
+.l-card-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  width: 100%;
+}
+
+.l-picto-footer {
+  width: 300px;
+  position: absolute;
+  right: 50px;
+  bottom: 0;
+}
+
+.l-footer-mail {
+  font-size: 12px;
+  font-family: Roboto Mono, serif;
+}
+
+.l-about-content {
+  margin-bottom: 240px;
+}
+
+.l-picto-container {
+  position: relative;
+}
+
+.l-description-container {
+  margin-bottom: 50px;
+}
+
+.l-works-card-underline {
+  margin-bottom: 20px;
+}
+
+.l-homepage-btn {
+  text-decoration: none;
+  background: black;
+  color: white;
+  padding: 15px;
+  border-radius: 50px;
+  border: 1px black solid;
+  font-family: Roboto Mono, serif;
+  font-size: 18px;
+}
+
+.l-homepage-btn:hover {
+  background: white;
+  color: black;
+  border: 1px black solid;
+  animation-duration: 3s;
+  transition: 0.2s;
+}
+
+.l-homepage-bottom-margin {
+  height: 70px;
+}

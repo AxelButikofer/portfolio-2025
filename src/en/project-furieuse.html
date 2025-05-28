@@ -1,0 +1,35 @@
+<extends
+  src="en/base-layout.html"
+  locals='{"translatedUrl": "../fr/project-furieuse.html"}'
+>
+  <block name="content">
+    <include src="en/include/include-work.html">
+      { "workname": "Furieuse", "workyear": "2024", "workdescription": "This 
+      fictional project was completed during my third year of training. It 
+      involved creating a website to promote a comic book, built around a 
+      storytelling approach, and developing animations using JavaScript with the 
+      GSAP library.", "projectname": "Furieuse" }
+    </include>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-2">
+          <a
+            href="https://axel-butikofer.at-eikon.ch/furieuse/"
+            target="_blank"
+            class="extern-website-btn"
+            >Visit the website</a
+          >
+        </div>
+        <div class="col-12">
+          <img
+            class="l-card-img l-card"
+            src="../img/furieuse/maquette_furieuse.jpg?as=webp"
+            alt="La maquette du site."
+            onmousedown="return false"
+            onmousemove="return false"
+            loading="eager"
+          />
+        </div>
+      </div>
+  </block>
+</extends>

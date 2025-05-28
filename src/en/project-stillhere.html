@@ -1,0 +1,39 @@
+<extends
+  src="en/base-layout.html"
+  locals='{"translatedUrl": "../fr/project-stillhere.html"}'
+>
+  <block name="content">
+    <include src="en/include/include-work.html">
+      { "workname": "Still Here", "workyear": "2024", "workdescription": "I
+      created this experimental project during my second year of training. My
+      goal was to focus more on visual and aesthetic aspects. The idea is to
+      evoke emotions through a series of still shots with a strong atmosphere.
+      There is no synopsis, as I chose to work in a metaphorical way, aiming to
+      immerse the viewer in a universe without offering explicit explanations."
+      }
+    </include>
+    <div class="container-fluid">
+      <div class="row">
+        <div style="padding: 42.86% 0 0; position: relative">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/J9Ks5C18yZM?si=YqNT5_KezzRI8To-"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            style="
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              top: 0;
+              left: 0;
+            "
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </block>
+</extends>

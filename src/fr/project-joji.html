@@ -1,0 +1,38 @@
+<extends
+  src="fr/base-layout.html"
+  locals='{"translatedUrl": "../en/project-joji.html"}'
+>
+  <block name="content">
+    <include src="fr/include/include-work.html">
+      { "workname": "Gimme Love Music Video", "workyear": "2023",
+      "workdescription": "J’ai créé ce projet lors de ma deuxième année de
+      formation, où l’objectif était de réaliser un clip musical pour une
+      chanson de notre choix. J’ai choisi Gimme Love de Joji, cherchant à
+      raconter l’histoire de mon personnage à travers ses souvenirs passés avec
+      ses proches." }
+    </include>
+    <div class="container-fluid">
+      <div class="row">
+        <div style="padding: 42.86% 0 0; position: relative">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/KkkZ06G4p9c?si=AfmH-TCberxMdloD"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            style="
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              top: 0;
+              left: 0;
+            "
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </block>
+</extends>

@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+}
+
+header {
+  border-bottom: 2px solid black;
+  position: sticky;
+  top: 0;
+  background: white;
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+footer {
+  background: black;
+  padding-top: 40px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-family: "CabinetGroteskExtra", sans-serif;
+  font-size: 30px;
+}
+
+footer p {
+  color: white;
+  font-size: 12px;
+  padding: 50px 0;
+}
+
+h1 a {
+  font-family: "CabinetGroteskExtra", sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  padding-top: 5px;
+  text-decoration: none;
+}
+
+h1 {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+h2 {
+  font-family: "Roboto Mono", serif;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+p {
+  font-family: "Roboto Mono", serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+nav {
+  padding-top: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: #222221;
+  font-family: "CabinetGroteskBold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: lightgreen;
+}
+
+li a:hover {
+  color: lightgreen;
+  transition: 0.5s;
+}
+
+::-moz-selection {
+  color: white;
+  background: lightgreen;
+}
+
+::selection {
+  color: white;
+  background: lightgreen;
+}

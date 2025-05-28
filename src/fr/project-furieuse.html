@@ -1,0 +1,35 @@
+<extends
+  src="fr/base-layout.html"
+  locals='{"translatedUrl": "../en/project-furieuse.html"}'
+>
+  <block name="content">
+    <include src="fr/include/include-work.html">
+      { "workname": "Furieuse", "workyear": "2024", "workdescription": "Ce
+      projet fictif a été réalisé durant ma troisième année de formation. Il
+      consistait à créer un site web pour la promotion d’une bande dessinée, en
+      mettant l’accent sur le storytelling et en exploitant des animations en
+      JavaScript avec l’outil GSAP. ", "projectname": "Chocolate Festival" }
+    </include>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-2">
+          <a
+            href="https://axel-butikofer.at-eikon.ch/furieuse/"
+            target="_blank"
+            class="extern-website-btn"
+            >Visiter le site</a
+          >
+        </div>
+        <div class="col-12">
+          <img
+            class="l-card-img l-card"
+            src="../img/furieuse/maquette_furieuse.jpg?as=webp"
+            alt="La maquette du site."
+            onmousedown="return false"
+            onmousemove="return false"
+            loading="eager"
+          />
+        </div>
+      </div>
+  </block>
+</extends>
