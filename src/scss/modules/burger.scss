@@ -28,7 +28,9 @@
   width: 100%;
   height: 3px;
   background: black;
-  transition: transform 0.3s, opacity 0.3s;
+  transition:
+    transform 0.3s,
+    opacity 0.3s;
 }
 
 .burger div:nth-child(1) {

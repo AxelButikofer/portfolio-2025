@@ -26,3 +26,16 @@
   background: black;
   transition-duration: 0.3s;
 }
+
+.work-item.hidden {
+  display: none;
+}
+
+.filters {
+  padding: 15px;
+}
+
+.filters a.active {
+  background: black;
+  color: white;
+}

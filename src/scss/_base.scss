@@ -87,6 +87,14 @@ hr {
   margin: 10px 0;
 }
 
+.filters a {
+  font-family: "CabinetGroteskMedium", sans-serif;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  text-decoration: none;
+}
+
 footer a:hover {
   text-decoration: underline;
   color: lightgreen;

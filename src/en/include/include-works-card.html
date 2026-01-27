@@ -1,19 +1,21 @@
-<div class="col-12 col-md-6">
-  <a href="{{ cardlink }}">
-    <img
-      class="l-card-img"
-      src="{{ cardimage }}?as=webp"
-      alt="{{ cardimagealt }}"
-      onmousedown="return false;"
-      onmousemove="return false;"
-    />
-  </a>
-  <div class="row l-works-card-underline">
-    <div class="col-6">
-      <p>{{ projectname }}</p>
-    </div>
-    <div class="col-6">
-      <p>{{ projectdomain }}</p>
+<div class="col-12 col-md-6 work-item">
+  <div class="work" data-category="{{ category }}">
+    <a href="{{ cardlink }}">
+      <img
+        class="l-card-img"
+        src="{{ cardimage }}?as=webp"
+        alt="{{ cardimagealt }}"
+        onmousedown="return false;"
+        onmousemove="return false;"
+      />
+    </a>
+    <div class="row l-works-card-underline">
+      <div class="col-6">
+        <p>{{ projectname }}</p>
+      </div>
+      <div class="col-6">
+        <p>{{ projectdomain }}</p>
+      </div>
     </div>
   </div>
 </div>

@@ -80,3 +80,31 @@ gsap.to(".picto-animate", {
     scrub: 1,
   },
 });
+
+// FLITRES PROJETS
+
+const filterButtons = document.querySelectorAll(".filters a");
+const items = document.querySelectorAll(".work-item");
+
+filterButtons.forEach((button) => {
+  button.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    filterButtons.forEach((btn) => btn.classList.remove("active"));
+    button.classList.add("active");
+
+    const filter = button.dataset.filter;
+
+    items.forEach((item) => {
+      const categories = item
+        .querySelector(".work")
+        .dataset.category.split(" ");
+
+      if (filter === "all" || categories.includes(filter)) {
+        item.classList.remove("hidden");
+      } else {
+        item.classList.add("hidden");
+      }
+    });
+  });
+});
