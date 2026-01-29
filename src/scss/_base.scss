@@ -87,12 +87,13 @@ hr {
   margin: 10px 0;
 }
 
-.filters a {
+.filters p {
   font-family: "CabinetGroteskMedium", sans-serif;
+  font-size: 12px;
+  padding: 10px;
+  margin: 0 10px 5px 0;
   border: 1px solid black;
   border-radius: 25px;
-  padding: 10px;
-  text-decoration: none;
 }
 
 footer a:hover {

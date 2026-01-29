@@ -83,7 +83,7 @@ gsap.to(".picto-animate", {
 
 // FLITRES PROJETS
 
-const filterButtons = document.querySelectorAll(".filters a");
+const filterButtons = document.querySelectorAll(".filters p");
 const items = document.querySelectorAll(".work-item");
 
 filterButtons.forEach((button) => {

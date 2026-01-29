@@ -44,13 +44,15 @@
 
 .filters {
   padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.filters a.active {
+.filters p.active {
   background: black;
   color: white;
 }
 
-.filters a:hover {
+.filters p:hover {
   background: lightgreen;
 }
