@@ -1,5 +1,16 @@
 .language-btn {
   padding-top: 12px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.language-btn p {
+  font-size: 15px;
+}
+
+.language-btn a {
+  font-size: 15px;
+  text-decoration: underline;
 }
 
 .extern-website-btn {
@@ -38,4 +49,8 @@
 .filters a.active {
   background: black;
   color: white;
+}
+
+.filters a:hover {
+  background: lightgreen;
 }
